@@ -31,6 +31,7 @@ class _ImcAppState extends State<ImcApp> {
       darkTheme: AppTheme.dark,
       themeMode: _themeMode,
       home: ImcHomePage(toggleTheme: _toggleTheme),
+      debugShowCheckedModeBanner: false,
     );
   }
 }

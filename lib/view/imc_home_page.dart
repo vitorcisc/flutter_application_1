@@ -55,7 +55,10 @@ class _ImcHomePageState extends State<ImcHomePage> {
             TextField(
               controller: _pesoController,
               keyboardType: TextInputType.number,
-              decoration: const InputDecoration(labelText: 'Peso (kg)'),
+              decoration: const InputDecoration(
+                labelText: 'Peso (kg)',
+                hintText: 'Peso em número inteiro, EX 85, não usar decimal',
+              ),
             ),
             const SizedBox(height: 16),
             TextField(
